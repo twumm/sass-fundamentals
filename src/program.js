@@ -14,7 +14,7 @@ program
   .option('-p, --port <port-number>', 'Port to serve the app on')
   .parse(process.argv);
 
-opts.port = program.port || 3000;
+opts.port = program.port || 3002;
 opts.exercise = ('' + program.exercise).trim();
 
 if (!opts.exercise) {
